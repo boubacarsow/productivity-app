@@ -10,7 +10,7 @@ const app = express();
 any request that has a Content-Type of application/json. */
 app.use(express.json());
 
-/* Allowing the frontend to access the backend. */
+/* Allowing the frontend to access the backend. ----*/
 app.use(cors());
 
 /* This is a route handler. It is listening for a GET request to the root route of the application.
