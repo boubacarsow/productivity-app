@@ -41,7 +41,7 @@ const App = () => {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
-        // Authorization: `Bearer ${token}`,
+        // Authorization: `Bearer ${token}`DELETED,
       },
       body: JSON.stringify(newActivity),
     });
